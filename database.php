@@ -1,10 +1,12 @@
 <?php
 
-    $dbServername = "127.0.0.1";
-    $dbUsername = "root";
+    $dbServername = "localhost:3306";
+    $dbUsername = "catalinb";
     $dbPassword = "";
     $dbName = "messages";
 
-    $conn = mysqli_connect($dbServername,$dbUsername,$dbPassword,$dbName)
+    $conn = mysqli_connect($dbServername, $dbUsername, $dbPassword, $dbName);
 
-?>
+    function sendMessage($message, $user_id)
+    {
+    }
