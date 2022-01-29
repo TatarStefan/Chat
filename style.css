@@ -1,0 +1,74 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.profile_image_shape {
+    width: 50px;
+    height: 50px;
+    background-color: gray;
+    border-radius: 100px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+
+
+.message-input {
+    width: 90%;
+    height: 40px;
+    border:0;
+    background-color: lightgreen;
+    position: absolute;
+    bottom: 2px;
+    left: 2px;
+    font-weight: 900;
+}
+
+.send-button {
+    width: 9%;
+    height: 42px;
+    border:0;
+    background-color: lightblue;
+    font-weight: 900;
+    position: absolute;
+    bottom: 2px;
+    right: 0px;
+}
+
+.register-button {
+    width: 100px;
+    height: 30px;
+    border: 0;
+}
+
+.delete-button {
+    width: 100px;
+    height: 30px;
+    border: 0;
+    font-weight: 600;
+    color:red;
+}
+
+.login-input {
+    width: 300px;
+    height: 30px;
+}
+
+.login-submit {
+    width:100px;
+    height: 30px;
+    font-weight: 700;
+}
+
+.logoff-button {
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+    background-color: #ff3729;
+    border-radius: 100px;
+    position: absolute;
+    right: 10px;
+    top: 50px;
+}
+
